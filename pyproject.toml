@@ -1,0 +1,4 @@
+[build-system]
+requires = ["yaml", "toml"]
+build-backend = "setuptools.build_meta"
+
