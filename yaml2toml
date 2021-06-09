@@ -16,6 +16,6 @@ toml_filename = re.sub(r'\.ya?ml$', '', yaml_filename) + '.toml'
 with open(yaml_filename, 'r') as file:
     file_contents = yaml.safe_load(file)
 
-with open(toml_filename, 'r') as file:
+with open(toml_filename, 'w') as file:
     toml.dump(file_contents, file)
 
