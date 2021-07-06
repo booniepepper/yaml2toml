@@ -10,4 +10,4 @@ License: MIT
 
 ---
 
-_Note: This little script is nice for a one-off action. If you need to do lots of conversions, or need more file formats supported, check out [`yj`](https://github.com/sclevine/yj)._
+_Note: This little script is nice for a one-off conversion. Check out [`yj`](https://github.com/sclevine/yj) for a tool with more formats, features, support, etc._
