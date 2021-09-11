@@ -2,6 +2,26 @@
 
 Convert yaml files to toml files.
 
+```
+$ cat example.yml
+here
+  - we
+  - go
+
+$ yaml2toml example.yml
+
+$ cat example.toml
+here = [ "we", "go",]
+```
+
+### Install
+
+```shell
+pip install yaml2toml
+```
+
+### Etc
+
 Project: https://github.com/hiljusti/yaml2toml
 
 By: J.R. Hill
